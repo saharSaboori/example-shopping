@@ -1,7 +1,5 @@
-import { useState } from "react";
-
 function App() {
-  return <>hi</>;
+  return <div className="text-center">سلام</div>;
 }
 
 export default App;
