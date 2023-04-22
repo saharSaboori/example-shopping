@@ -1,5 +1,14 @@
+import Layout from "./components/Layout/Layout";
+import Shopping from "./containers/Shopping/Shopping";
+
 function App() {
-  return <div className="text-center">سلام</div>;
+  return (
+    <div>
+      <Layout>
+        <Shopping />
+      </Layout>
+    </div>
+  );
 }
 
 export default App;

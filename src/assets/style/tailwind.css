@@ -1,16 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer utilities {
     .ltr {
       direction: ltr;
     }
   }
-
   @layer base {
     @font-face {
-      font-family: sahel;
+      font-family: shabnam;
       src: url("../fonts/shabnam/Shabnam-FD.eot");
       src: url("../fonts/shabnam/Shabnam-FD.eot?#iefix") format("embedded-opentype"),
         /* IE6-8 */ url("../fonts/shabnam/Shabnam-FD.woff2") format("woff2"),

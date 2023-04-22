@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         shabnam: ["shabnam"],
       },
+      boxShadow:{
+        1:"0px 0px 25px 5px rgba(0,0,0,0.07)",
+      },
     },
   },
   plugins: [],
